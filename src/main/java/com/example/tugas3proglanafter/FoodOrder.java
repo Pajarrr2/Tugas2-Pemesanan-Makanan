@@ -33,7 +33,7 @@ public class FoodOrder {
                     "Nama pelanggan tidak boleh kosong.");
         }
 
-        // Validasi nama makanan
+        // Validasi nama makanann
         if (foodName == null || foodName.isBlank()) {
             throw new IllegalArgumentException(
                     "Nama makanan tidak boleh kosong.");
